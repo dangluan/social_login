@@ -1,5 +1,5 @@
 <%= flash[:notice] %>
-<%= image_tag current_user.image_path, size: '100x100'%>
+<%= image_tag current_user.image_path%>
 <%= link_to "Log out", destroy_user_session_path, :method => :delete %>
 
 <h1>Listing lists</h1>
