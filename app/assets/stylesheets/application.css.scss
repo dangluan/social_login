@@ -9,5 +9,21 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  */
+@import "bourbon";
+
+a {
+	margin: 20px;
+}
+
+a[href='/users/auth/facebook']{
+	@include button(shiny, #19B6EA);
+}
+
+a[href='/users/auth/google_oauth2']{
+	@include button(shiny, #E02843);
+}
+
+a[href='/users/auth/twitter']{
+	@include button(shiny, #00ACEE);
+}
