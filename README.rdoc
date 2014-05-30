@@ -1,0 +1,9 @@
+== Welcome to Rails
+
+This is socail Login 
+link references
+
+https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
+http://sreeharikmarar.blogspot.com/2013/01/omniauth-devise-authentication-using.html
+https://github.com/zquestz/omniauth-google-oauth2
+http://deepakrip007.wordpress.com/2013/11/05/google-integration-using-devise-and-omniauth-in-rails-app/
